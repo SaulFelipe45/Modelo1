@@ -1,0 +1,15 @@
+[08-Dec-2022 20:20:15 UTC] PHP Warning:  file_get_contents(C:\Users\Instrutor\Local Sites\modelo1\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): failed to open stream: No such file or directory in C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-includes\functions.php on line 6620
+[08-Dec-2022 20:20:15 UTC] PHP Stack trace:
+[08-Dec-2022 20:20:15 UTC] PHP   1. {main}() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-admin\themes.php:0
+[08-Dec-2022 20:20:15 UTC] PHP   2. require_once() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-admin\themes.php:10
+[08-Dec-2022 20:20:15 UTC] PHP   3. do_action() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-admin\admin.php:259
+[08-Dec-2022 20:20:15 UTC] PHP   4. WP_Hook->do_action() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-includes\plugin.php:517
+[08-Dec-2022 20:20:15 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-includes\class-wp-hook.php:332
+[08-Dec-2022 20:20:15 UTC] PHP   6. {closure:C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-content\themes\oceanwp\inc\helpers.php:4892-4894}() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-includes\class-wp-hook.php:308
+[08-Dec-2022 20:20:15 UTC] PHP   7. include_once() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-content\themes\oceanwp\inc\helpers.php:4893
+[08-Dec-2022 20:20:15 UTC] PHP   8. OceanWP_Theme_Panel->print_pane() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-content\themes\oceanwp\inc\themepanel\views\layout\master.php:10
+[08-Dec-2022 20:20:15 UTC] PHP   9. include_once() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-content\themes\oceanwp\inc\themepanel\theme-panel.php:343
+[08-Dec-2022 20:20:15 UTC] PHP  10. OceanWP_Theme_Panel->get_current_plugin_version() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-content\themes\oceanwp\inc\themepanel\views\panes\home.php:71
+[08-Dec-2022 20:20:15 UTC] PHP  11. get_plugin_data() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-content\themes\oceanwp\inc\themepanel\theme-panel.php:750
+[08-Dec-2022 20:20:15 UTC] PHP  12. get_file_data() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-admin\includes\plugin.php:91
+[08-Dec-2022 20:20:15 UTC] PHP  13. file_get_contents() C:\Users\Instrutor\Local Sites\modelo1\app\public\wp-includes\functions.php:6620
